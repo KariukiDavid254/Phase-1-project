@@ -1,0 +1,25 @@
+{
+    "Parking": [
+      {
+        "id": "PARKING LOT A",
+        "title": "The Giant Gila Monster",
+        "runtime": "108",
+        "capacity": 30,
+        "showtime": "04:00PM"
+      },
+      {
+        "id": "PARKING LOT B",
+        "title": "Manos: The Hands Of Fate",
+        "runtime": "118",
+        "capacity": 50,
+        "showtime": "06:45PM"
+      },
+      {
+        "id": "PARKING LOT C",
+        "title": "Time Chasers",
+        "runtime": "93",
+        "capacity": 50,
+        "showtime": "09:30PM"
+     } ]
+     
+  }
