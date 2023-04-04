@@ -1,4 +1,4 @@
-<!-- # Phase-1-project
+# Phase-1-project
 ### Car Parking Management System Application
 This is a car parking management system application, where all the parking spaces are defined within the system and been allocated to cars for certain period of time.
 
@@ -42,4 +42,4 @@ This is a car parking management system application, where all the parking space
 
   # Vehicle_parking
   * vehicle_parking_id
-  * release_date_time -->
+  * release_time
