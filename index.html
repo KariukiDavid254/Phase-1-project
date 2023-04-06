@@ -6,49 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CAR PARKING MANAGEMENT SYSTEM</title>
     <link rel="stylesheet" href="style.css">
-</head>
+</head> 
 <body style="background-color:powderblue;">
-    <div class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-        <a href="#about" class="split">Help</a>
-      </div>
-      <div>
-        <h1>Car Parking Management System Application</h1>
-      </div>
-      <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br>
-      
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br>
-      
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required><br>
-      
-        <label for="confirm-password">Confirm Password:</label>
-        <input type="password" id="confirm-password" name="confirm-password" required><br>
-      
-        <label for="bookdate">Booking Date:</label>
-        <input type="date" id="bookdate" name="Booking Date" required><br>
-      
-        <label for="gender">Gender:</label>
-        <select id="gender" name="gender">
-          <option value="male">Male</option>
-          <option value="female">Female</option>
-          <option value="other">Other</option>
-        </select>
+  <nav>
+    <ul>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="#help" class="split">Help</a>
 
-        <label for="vehicleID">Vehicle Parking ID:</label>
-        <input type="text" id="bookdate" name="vehicleID" required><br>
-
-        <input type="submit" value="Submit">
-      </form>
-      
-      <section class="container">
-        <div class="card">
+  </ul>
+</nav>
+        <div id="home">
+        <h1>CAR PARKING MANAGEMENT SYSTEM</h1>
+        <section class="smooth-scroll">
+          <div class="card">
             <div class="card-image parking-A"></div>
             <h2>PARKING LOT A</h2>
             <p>Public Regular Parking</p>
@@ -71,114 +44,182 @@
                 </form>
               </div>
             </div>
-            
+        </section>
 
+                <section class="smooth-scroll">
+      <div class="card">
+          <div class="card-image parking-B"></div>
+          <h2>PARKING LOT B</h2>
+          <p>Public Regular Parking</p>
+          <p>Location: Nairobi City, Kencom</p>
+          <p>Parking Fee: 700sh</p>
+          <p>Payable via MPESA, VISA</p>
 
-        </div>
-        <div class="card">
-            <div class="card-image parking-B"></div>
-            <h2>PARKING LOT B</h2>
-            <p>Public Regular Parking</p>
-            <p>Location: Nairobi City, Kencom</p>
-            <p>Parking Fee: 700sh</p>
-            <p>Payable via MPESA, VISA</p>
-
-            <button id="modal-button">Book Now</button>
-            <div id="modal" class="modal">
-              <div class="modal-content">
-                <span class="close">&times;</span>
-                <form id="modal-form">
-                  <label for="vehicle-id">Vehicle ID:</label>
-                  <input type="text" id="vehicle-id" name="vehicle-id">
-                  <label for="booking-time">Booking Time:</label>
-                  <input type="datetime-local" id="booking-time" name="booking-time">
-                  <label for="release-time">Release Time:</label>
-                  <input type="datetime-local" id="release-time" name="release-time">
-                  <button type="submit">Submit</button>
-                </form>
-              </div>
+          <button id="modal-button">Book Now</button>
+          <div id="modal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <form id="modal-form">
+                <label for="vehicle-id">Vehicle ID:</label>
+                <input type="text" id="vehicle-id" name="vehicle-id">
+                <label for="booking-time">Booking Time:</label>
+                <input type="datetime-local" id="booking-time" name="booking-time">
+                <label for="release-time">Release Time:</label>
+                <input type="datetime-local" id="release-time" name="release-time">
+                <button type="submit">Submit</button>
+              </form>
             </div>
-            
-
-
-        </div> 
-
-        </div>
-        <div class="card">
-            <div class="card-image parking-C"></div>
-            <h2>PARKING LOT C</h2>
-            <p>Reserved Class A Parking</p>
-            <p>Location: Nairobi City, Odeon</p>
-            <p>Parking Fee: 2500sh</p>
-            <p>Payable via MPESA, VISA</p>
-
-            <button id="modal-button">Book Now</button>
-            <div id="modal" class="modal">
-              <div class="modal-content">
-                <span class="close">&times;</span>
-                <form id="modal-form">
-                  <label for="vehicle-id">Vehicle ID:</label>
-                  <input type="text" id="vehicle-id" name="vehicle-id">
-                  <label for="booking-time">Booking Time:</label>
-                  <input type="datetime-local" id="booking-time" name="booking-time">
-                  <label for="release-time">Release Time:</label>
-                  <input type="datetime-local" id="release-time" name="release-time">
-                  <button type="submit">Submit</button>
-                </form>
-              </div>
-            </div>
-            
-
-
-        </div>
-        </div>
-
-        <div class="card">
-            <div class="card-image parking-D"></div>
-            <h2>PARKING LOT D</h2>
-            <p>Reserved Class B Parking</p>
-            <p>Location: Nairobi City, Kimathi</p>
-            <p>Parking Fee: 3200sh</p>
-            <p>Payable via MPESA, VISA</p>
-
-            <button id="modal-button">Book Now</button>
-            <div id="modal" class="modal">
-              <div class="modal-content">
-                <span class="close">&times;</span>
-                <form id="modal-form">
-                  <label for="vehicle-id">Vehicle ID:</label>
-                  <input type="text" id="vehicle-id" name="vehicle-id">
-                  <label for="booking-time">Booking Time:</label>
-                  <input type="datetime-local" id="booking-time" name="booking-time">
-                  <label for="release-time">Release Time:</label>
-                  <input type="datetime-local" id="release-time" name="release-time">
-                  <button type="submit">Submit</button>
-                </form>
-              </div>
-            </div>
-            
-
-
-          
-
-        </div>
-
-        </div>
-
-
+          </div>
+      </div> 
       </section>
 
-      <footer>
-        <p>&copy; 2023 Car Parking Management System . All rights reserved.</p>
-        <nav>
-          <ul>
-            <li><a href="#">Terms of Service</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Contact Us</a></li>
-          </ul>
-        </nav>
-      </footer>
-      
+        <section class="smooth-scroll">
+    <div class="card">
+        <div class="card-image parking-C"></div>
+        <h2>PARKING LOT C</h2>
+        <p>Reserved Class A Parking</p>
+        <p>Location: Nairobi City, Odeon</p>
+        <p>Parking Fee: 2500sh</p>
+        <p>Payable via MPESA, VISA</p>
+
+        <button id="modal-button">Book Now</button>
+        <div id="modal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <form id="modal-form">
+              <label for="vehicle-id">Vehicle ID:</label>
+              <input type="text" id="vehicle-id" name="vehicle-id">
+              <label for="booking-time">Booking Time:</label>
+              <input type="datetime-local" id="booking-time" name="booking-time">
+              <label for="release-time">Release Time:</label>
+              <input type="datetime-local" id="release-time" name="release-time">
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+    </div>
+    </section>
+
+        <section class="smooth-scroll">
+  <div class="card">
+      <div class="card-image parking-D"></div>
+      <h2>PARKING LOT D</h2>
+      <p>Reserved Class B Parking</p>
+      <p>Location: Nairobi City, Kimathi</p>
+      <p>Parking Fee: 3200sh</p>
+      <p>Payable via MPESA, VISA</p>
+
+      <button id="modal-button">Book Now</button>
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <form id="modal-form">
+            <label for="vehicle-id">Vehicle ID:</label>
+            <input type="text" id="vehicle-id" name="vehicle-id">
+            <label for="booking-time">Booking Time:</label>
+            <input type="datetime-local" id="booking-time" name="booking-time">
+            <label for="release-time">Release Time:</label>
+            <input type="datetime-local" id="release-time" name="release-time">
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+  </div>
+</section>
+
+
+        <div id="services">
+          <h1>Services</h1>
+          <p>
+            Our services mainly include:
+          </p> 
+          <p>            * Real-time availability information for parking spots
+          </p>
+<p>            * Online reservation and payment options
+<p></p>            * Guidance systems to direct drivers to available spots
+<p></p>            * Valet parking (some systems)
+</p>            <p>* Car washing (some systems)</p>
+<p>            * Vehicle maintenance (some systems)
+</p>            * Data analysis to optimize parking operations
+<p>            * Improved customer experience
+</p>            <p>* Maximized use of parking facilities.</p>
+        
+          </div>
+          <div id="contact">
+            <h1>Contact Us</h1>
+            <div class="contact-form">
+              <form action="submit-form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            
+                <button type="submit">Send Message</button>
+              </form>
+            </div>
+            
+            </div>
+            <div id="about">
+              <h1>About Us</h1>
+              <p>
+                Welcome to our car management system, where we strive to provide the best parking experience for drivers and businesses alike. We understand that finding parking can be a frustrating experience, which is why we're dedicated to making it easier and more convenient for everyone.
+
+Our system provides real-time availability information for parking spots, online reservation and payment options, and guidance systems to direct drivers to available spots. We also offer services such as valet parking, car washing, and vehicle maintenance to help drivers make the most of their parking experience.
+
+At our car management system, we're passionate about providing a seamless and hassle-free parking experience for everyone. We're constantly working to improve our system and incorporate the latest technologies to make parking even easier.
+
+Our team consists of experienced professionals in the parking industry who are dedicated to delivering excellent customer service and making parking as stress-free as possible. We're committed to providing top-quality parking services that meet the needs of our customers and exceed their expectations.
+
+Thank you for choosing our car management system for your parking needs. We look forward to serving you and making your parking experience as smooth as possible.
+
+              </p>
+              </div>
+              <div id="help">
+                <h1>Help</h1>
+
+  <h2 class="feedback-form-header">Feedback</h2>
+
+  <div class="feedback-form-fields">
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required>
+
+    <label for="subject">Subject:</label>
+    <input type="text" name="subject" id="subject" required>
+
+    <label for="feedback">Feedback:</label>
+    <textarea name="feedback" id="feedback" rows="5" required></textarea>
+  
+    <label for="contact">Would you like us to contact you regarding your feedback?</label>
+    <div class="contact">
+      <input type="radio" name="contact" id="contact-yes" value="Yes">
+      <label for="contact-yes">Yes</label>
+      <input type="radio" name="contact" id="contact-no" value="No" checked>
+      <label for="contact-no">No</label>
+    </div>
+
+    <label for="contact-method">If yes, please provide your preferred contact method:</label>
+    <div class="contact-method">
+      <input type="checkbox" name="contact-method[]" id="contact-email" value="Email">
+      <label for="contact-email">Email</label>
+      <input type="checkbox" name="contact-method[]" id="contact-phone" value="Phone">
+      <label for="contact-phone">Phone</label>
+      <input type="checkbox" name="contact-method[]" id="contact-sms" value="SMS">
+      <label for="contact-sms">SMS</label>
+    </div>
+
+    </div>
+  <button type="submit" class="feedback-form-submit-button">Submit</button>
+
+</form>
+ </div>
+        
 
 
 
