@@ -44,3 +44,6 @@ This is a car parking management system application, where all the parking space
   # Vehicle_parking
   * vehicle_parking_id
   * release_time
+
+# Live-site down below
+https://kariukidavid254.github.io/Phase-1-project/
