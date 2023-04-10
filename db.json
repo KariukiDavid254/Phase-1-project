@@ -1,0 +1,32 @@
+{
+    "Parking": [
+      {
+        "id": "PARKING LOT A",
+        "area": "Archives",
+        "parktime": "2hrs",
+        "fees": 500
+      
+      },
+      {
+        "id": "PARKING LOT B",
+        "area": "Kencom",
+        "parktime": "3hrs",
+        "fees": 700
+      },
+
+
+      {
+        "id": "PARKING LOT C",
+        "area": "Odeon",
+        "parktime": "5hrs",
+        "fees": 2500
+        
+      },
+      {
+        "id": "PARKING LOT D",
+        "area": "Kimathi",
+        "parktime": "7hrs",
+        "fees": 3200
+     } ]
+     
+  }
